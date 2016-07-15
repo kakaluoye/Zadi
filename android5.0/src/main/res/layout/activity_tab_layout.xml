@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lin.android50.ok.TabLayoutActivity">
+    <!--这个TabLayout是新支持包中的！！！！！！！！-->
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout_activity_tl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabGravity="center"
+        app:tabIndicatorColor="#ff0000"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#0000ff"
+        app:tabTextColor="#00ff00"></android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tablayout_activity_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"></android.support.v4.view.ViewPager>
+</LinearLayout>
