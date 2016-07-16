@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.game3d.my.costumview.WenzhangFirstFragmentViewPager
+        android:id="@+id/wenzhang_first_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        >
+
+    </com.game3d.my.costumview.WenzhangFirstFragmentViewPager>
+    <!--加入pullto
+    -->
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/wenzhang_first_pulltorefreshlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></com.handmark.pulltorefresh.library.PullToRefreshListView>
+</LinearLayout>

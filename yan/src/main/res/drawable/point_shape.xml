@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:radius="2dp"></corners>
+    <solid android:color="#000000"></solid>
+    <!--shape形状，在drawable里，可以定义View的显示方式，用view的背景图等显示效果
+    corners 角落，里面有radios半径属性  solid 固态,里面默认颜色属性-->
+</shape>

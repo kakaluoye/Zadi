@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lin.a3dmgame.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_Activity_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_bottom_rg"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/main_bottom_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/main_Activity_rb_chapter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/main_bottom_menu"
+            android:button="@null"
+            android:clickable="true"
+            android:drawableTop="@drawable/main_bottom_drawabletop_chapter"
+            android:enabled="true"
+            android:gravity="center"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="文章"
+            android:textColor="#fff" />
+        <!--enabled为true，还得先写好对应xml文件，，，-->
+        <RadioButton
+            android:id="@+id/main_Activity_rb_forum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/main_bottom_menu"
+            android:button="@null"
+            android:drawableTop="@drawable/main_bottom_drawabletop_forum"
+            android:gravity="center"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="论坛"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/main_Activity_rb_game"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/main_bottom_menu"
+            android:button="@null"
+            android:drawableTop="@drawable/main_bottom_drawabletop_game"
+            android:gravity="center"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:text="游戏"
+            android:textColor="#fff" />
+
+    </RadioGroup>
+</RelativeLayout>

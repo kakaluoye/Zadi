@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3300fff0">
+
+    <TextView
+        android:id="@+id/guide_page3_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="欢迎\n   ↓"
+        android:textSize="55dp" />
+
+    <Button
+        android:id="@+id/guide_page_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide_page3_tv"
+        android:layout_centerHorizontal="true"
+        android:text="进入主界面"
+        android:textSize="15dp" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--当内容是选中状态，使用黑色，否则默认是白色-->
+    <item android:drawable="@drawable/guide_activity_dot_white" android:state_enabled="false" />
+    <item android:drawable="@drawable/guide_activity_dot_dark" android:state_enabled="true" />
+
+</selector>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:background="@drawable/main_top_banner_bg"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/chapter_inner_item_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/inneritem_noicon_defoult" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chapter_inner_item_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:lines="1"
+            android:text="这里是title"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chapter_inner_item_tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:lines="1"
+            android:paddingTop="5dp"
+            android:text="这里是时间" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/chapter_inner_item_tv_clicks"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:lines="1"
+        android:text="这里是点击数" />
+</LinearLayout>
