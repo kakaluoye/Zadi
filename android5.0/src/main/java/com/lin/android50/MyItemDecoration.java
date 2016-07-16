@@ -5,23 +5,23 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 
 /**
  * Created by Administrator on 2016/7/14.
  */
-public class RecyclerViewItemDevider extends RecyclerView.ItemDecoration {
+public class MyItemDecoration extends RecyclerView.ItemDecoration {
     //每一个项目的绘制。项目的绘制对象。这里被调用是在画下划线红色的时候。
-    //
     Paint paint;
 
     @Override
     public void onDraw(Canvas c, RecyclerView parent, RecyclerView.State state) {
-//        super.onDraw(c, parent, state);//看它似乎是在自己一直调用自己。
+        //super.onDraw(c, parent, state);//看它似乎是在自己一直调用自己。
         int left = 0;
         int right = parent.getWidth();
-
         int itemcount = parent.getChildCount();
+        Log.i("aaa","onDraw");
         //有画布Cancas就用画笔paint来操作。
         if (paint == null) {
             paint = new Paint();//画笔不存在就new 一个，且设置画的属性。即颜色等。

@@ -8,21 +8,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ok.CoordinatorLayoutActivity02"
-            >
-            <!--android:theme="@style/Theme.AppCompat.NoActionBar"-->
+        <activity android:name=".SwipeRefreshLayoutActivity">
+
+            <!-- android:theme="@style/Theme.AppCompat.NoActionBar" -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecycleViewActivity" />
+        <!-- <activity android:name=".RecycleViewActivity" /> -->
         <!-- <activity android:name=".ok.TextInputlayoutActivity"></activity> -->
         <!-- <activity android:name=".ok.FloatingActionButtonActivity"></activity> -->
         <!-- <activity android:name=".ok.CoordinatorLayoutActivity"></activity> -->
         <!-- <activity android:name=".ok.CoordinatorLayoutActivity02"></activity> -->
-        <!--<activity android:name=".ok.TabLayoutActivity"></activity>-->
+        <!-- <activity android:name=".ok.TabLayoutActivity"></activity> -->
+        <!--<activity android:name=".SwipeRefreshLayoutActivity"></activity>-->
     </application>
 
 </manifest>
